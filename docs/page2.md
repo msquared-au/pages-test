@@ -8,6 +8,7 @@ custom-javascript-list:
 This is another page.  Let's see how we put this into the structure!
 
 * IP address: <input class="variable_def" id="var_ip" value="1.2.3.4" />
+* Hostname: {% include name="hostname" default="myhost.com" %}
 
 Some text, including the IP address: <span class="var_ip">ip</span>
 
