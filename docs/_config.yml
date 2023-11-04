@@ -2,3 +2,5 @@ title: This is the site title, set in the _config.yml file.
 theme: minima
 plugins:
   - hello
+whitelist:
+  - hello
