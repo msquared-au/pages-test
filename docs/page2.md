@@ -6,3 +6,12 @@ custom-javascript-list:
 ---
 
 This is another page.  Let's see how we put this into the structure!
+
+<script>
+function update() {
+  $("." + $(this).prop("id")).text($(this).val());
+}
+$(".variable_def")
+  .on("change keyup paste", update)
+  .each(update);
+</script>
