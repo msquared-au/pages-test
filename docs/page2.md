@@ -18,9 +18,15 @@ Some more text, including the IP address: <span class="var_ip">ip</span>
 
 IP address in a `code span: <span class="var_ip">ip</span>`
 
+Hostname in a `code span: {% include ref.html name="hostname" %}`
+
 IP address in a code block:
 
     This is the IP address: <span class="var_ip">ip</span>
+
+Hostname in a code block:
+
+    This is the hostname: {% include ref.html name="hostname" %}
 
 <script>
 function update() {
