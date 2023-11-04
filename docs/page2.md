@@ -13,6 +13,12 @@ Some text, including the IP address: <span class="var_ip">ip</span>
 
 Some more text, including the IP address: <span class="var_ip">ip</span>
 
+IP address in a `code span: <span class="var_ip">ip</span>`
+
+IP address in a code block:
+
+    This is the IP address: <span class="var_ip">ip</span>
+
 <script>
 function update() {
   $("." + $(this).prop("id")).text($(this).val());
