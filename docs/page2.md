@@ -12,6 +12,8 @@ This is another page.  Let's see how we put this into the structure!
 
 Some text, including the IP address: <span class="var_ip">ip</span>
 
+Some text, including the hostname: {% include ref.html name="hostname" %}
+
 Some more text, including the IP address: <span class="var_ip">ip</span>
 
 IP address in a `code span: <span class="var_ip">ip</span>`
